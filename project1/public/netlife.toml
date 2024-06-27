@@ -1,6 +1,7 @@
 [build]
+ command = "npm install && npm run build"
   publish = "public"
-  command =  "npm start""
+  command =  "npm start"
 
 [[redirects]]
   from = "/*"
